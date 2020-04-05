@@ -32,10 +32,4 @@ public class 二叉树的最大深度 {
         return Math.max(getMax(depth + 1, node.left), getMax(depth + 1, node.right));
     }
 
-      public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
 }
